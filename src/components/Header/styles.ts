@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
+export const Container = styled.header` // Container seria a tag <header>
   background: var(--blue);
 `;
 
-export const Content = styled.div`
+export const Content = styled.div` // Content seria a tag <div>
   max-width: 1120px;
   margin: 0 auto;
 
@@ -27,7 +27,5 @@ export const Content = styled.div`
     &:hover {
       filter: brightness(0.9);
     }
-  }
-
-  
+  }  
 `;
